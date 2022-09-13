@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: ubuntu;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    text-align: center;
+    background: #1b7679;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% auto;
+    width: 90%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.uls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-group {
+    width: 99%;
+    text-align: -webkit-center;
+    font-weight: 500;
+}
+    
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.badge {
+    color: #000;
+    font-size: 1rem;
+    --bs-badge-padding-x: 0em;
+    --bs-badge-padding-y: 0em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons :nth-child(1) {
+    margin-right: 10px;
+}
+
+.buttons :nth-child(3) {
+    margin-left: 10px;
+}
+
+.buttons :nth-child(2) {
+    width: 50px;
+}
+
+.buttons :nth-child(2) img { 
+    margin: 0;
+}
+
+button {
+    margin-top: 5%;
+    font-weight: bold;
+    transition: 400ms;
+    width: 48%;
+}
+
+button:hover {
+    opacity: 0.75;
+}
