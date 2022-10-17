@@ -4,15 +4,14 @@ const usersList = document.getElementsByTagName("li");
 
 const users = [
   "Yasmim Rodrigues",
-  "Karolina Morais",
-  "Huylnna Melo",
+  "Juliane Maltez",
+  "Thaís Park",
+  "Caroline Marreira",
   "Izanara Almeida",
-  "Elaine Nascimento",
   "Bruna Frade",
   "Ester Moreira",
   "Gustavo de Almeida",
   "Emily Cristine",
-  "Millene Carvalho",
   "Roberto Roseira",
   "Isabela Peres"
 ];
