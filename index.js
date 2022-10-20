@@ -73,30 +73,3 @@ document.querySelector("#btn3").addEventListener("click", () => {
 const insertAfter = (newNode, referenceNode) => {
   referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 };
-
-// let API_URL_TEAM_1 =
-//   "https://servicedesk.italo.br/api/v1/Team/62ab9672c15fad3dd/users?primaryFilter=&select=salutationName%252CfirstName%252ClastName%252CmiddleName%252Cname%252CuserName%252CteamRole%252CsalutationName%252CfirstName%252ClastName%252CmiddleName%252Cname%252CuserName%252CteamRole&maxSize=100&offset=0&orderBy=name&order=asc";
-// let USERS_NAMES = [];
-
-// window.onload = () => {
-//   fetch(`${API_URL_TEAM_1}${USERS_NAMES}`)
-//     .then(response => response.json())
-//     .then(data => {
-//       listPosition.innerHTML = json.stringify(data);
-//     })
-//     .catch(err => console.error(err));
-// };
-
-// const reqXMLHttpRequest = () => {
-//   let xHttp = new XMLHttpRequest();
-//   xHttp.onreadystatechange = () => {
-//     this.readState === 4 && this.status === 200
-//       ? (listPosition.innerHTML = xHttp.responseText)
-//       : console.status(400, "Deu ruim");
-//   };
-
-//   xHttp.open("GET", API_URL_TEAM_1 + USERS_NAMES, true);
-//   xHttp.setRequestHeader("Authorization", "Basic ZW51YmU6VHViYXJAMDE=");
-//   xHttp.setRequestHeader("Content-Type", "application/json");
-//   xHttp.send();
-// };
